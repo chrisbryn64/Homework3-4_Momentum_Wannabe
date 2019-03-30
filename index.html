@@ -1,0 +1,125 @@
+<!--The following is a fanmade parody. Dragonball, DragonballZ, DraognballGT and Dragonball Super are all
+owned by Funanimation, ToiAnimation, FujiTV and Akira Toriyama. Please Support the Official Release-->
+<!--This work was completed with extensive code hunting-->
+<!--I suck at coding and there is no way I could have possibly done this assignment from scratch-->
+<!--The point is to make the thing work. It works.-->
+<!--Mission Complete-->
+<!--Christopher Ashura Brien Smith N01305926-->
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Homework 3/4_Momentum_Wannabe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <!-- Font Awesome Thingy -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+
+
+
+  <!-- CSS Thingy -->
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+
+</head>
+<!----------------------------------------------------------------------------------------------->
+
+
+<body>
+
+  <!-- Main Thingy -->
+  <main class="main">
+
+    <!-- Main Time Block Thingy -->
+    <div class="greet_block">
+      <div class="date_block">
+        <div class="time color-white center">
+          <p class="hour" id="hour"></p>
+          <p class="colon">:</p>
+          <p class="minute" id="minutes"></p>
+        </div>
+      </div>
+      
+      <div class="first_time_block">
+        <h1 class="first_time_block_header">Enter Your Name</h1>
+        <input type="text" name="" id="user_name" placeholder="Enter Your Name">
+        
+       
+
+      </div>
+      <div class="greet_user_block">
+        <h1><span class="greet_msg"></span>, <span class="greet_user"></span></h1>
+      </div>
+      <div class="quote_block">
+        <div class="quote center"><span class="inverted_comma_start"><i class="fas fa-quote-left"></i></span>
+          <p class="quote_text"></p>
+        </div>
+        <div class="quote_author"><span class="author_name"></span></div>
+      </div>
+    </div>
+    <!-- Todo List -->
+    <div class="todo_block">
+      <div class="todo_list_block">
+        <h2 class="todo_list_header center color-white">To Do List</h2>
+        <!-- Dynamically Todo List -->
+        <ul class="todo-list">
+        </ul>
+        <!-- Block for Adding New Task -->
+        <div class="add_task_block">
+          <input type="text" class="task_value" id="task-value">
+          <button class="task_add_btn" id="add-task">Add Task</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="weather_block">
+      
+      <!-- City Name -->
+      <h2 class="center color-white weather_heading" id="city_title"></h2>
+
+      <!-- Weather details, including temperature and weather description -->
+      <div class="color-white">
+        <div class="center flexbox_horizontal">
+          <h2 id="temp" class="todo_list_header weather_heading"></h2>
+          <h3 class="weather_heading" id="main_description"></h3>  
+          <p id="detailed_description" class="center weather_heading"></p>
+        </div>
+      </div>
+
+      <!-- Block for changing the city -->
+      <div class="add_task_block" id="change_city">
+        <input type="text" class="city_value" id="city_value">
+        <button class="city_add_btn" id="add-city">Enter City</button>
+      </div>
+    </div>
+
+
+  </main>
+
+  
+  <!-- Footer -->
+
+<!--Reset Button-->
+
+  <footer class="center">
+
+    <button class="reset_data" id="reset-data">Reset All Information</button>
+  
+  </footer>
+
+
+  <!-- Script -->
+  <script src="./js/main.js" type="module"></script>
+  
+</body>
+
+</html>
